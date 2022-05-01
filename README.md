@@ -1,6 +1,6 @@
 #  Trybe
 
-Este contém todas as atividades de aprendizagem desenvolvida por _[ Miriam Vidoto ](https://www.linkedin.com/in/riam-vidoto/)_ enquanto estudava na _[ Trybe ](https://www.betrybe.com /)_ : foguete :
+Este contém todas as atividades de aprendizagem desenvolvida por _[ Miriam Vidoto ](https://www.linkedin.com/in/riam-vidoto/)_ enquanto estudava na [ Trybe ](https://www.betrybe.com /)
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar a vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
