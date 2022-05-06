@@ -9,16 +9,37 @@ header{
     display: flex;
     background-color:rgb(50,52,51);
     color: white;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
   .header-img {
     width: 70px;
   }
+
+  #text{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+  }
   
   .container{
-      display: flex;
+    margin: auto;
+    border: 1px solid red;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
+
+  .card{
+    border: 1px solid red;
+    width: ;
+  }
+
   .gallery-img {
     width: 150px;
   }
