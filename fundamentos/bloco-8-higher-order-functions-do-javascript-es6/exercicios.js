@@ -39,10 +39,10 @@ const randonNumber = () => Math.floor(Math.random() * 5);
 const right = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const student = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 
-const result = (rightAnswers, studentAswers, points) =>{
+const result = (rightAnswers, studentAswers, callback) =>{
     let resultPoints = 0;
     for (let index = 0; index < rightAnswers.length; index += 1) {
-        const count = points(rightAnswers[index], studentAswers[index]);
+        const count = callback(rightAnswers[index], studentAswers[index]);
         resultPoints += count;
     };
     return resultPoints;
