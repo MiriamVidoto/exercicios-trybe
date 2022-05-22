@@ -61,12 +61,12 @@ const books = [
     },
   ];
   
-  // 🚀 1 - Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
+// 🚀 1 - Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
 // Dica: use a função find.
 
-const authorBornIn1947 = (array) => array.find((element) => element.author.birthYear === 1947);
+const authorBornIn1947 = (array) => array.find((element) => element.author.birthYear === 1947).author.name;
 
-// console.log(authorBornIn1947(books));
+console.log(authorBornIn1947(books));
 
 // 2 - Retorne o nome do livro de menor nome.
 // Dica: use a função forEach.
@@ -81,7 +81,6 @@ function smallerName() {
 
 //   3 - Encontre o primeiro livro cujo nome possui 26 caracteres.
 
-
 const getNamedBook = (array) => array.find((element) => element.name.length === 26);
 
 // console.log(getNamedBook(books));
@@ -95,4 +94,5 @@ const getNamedBook = (array) => array.find((element) => element.name.length === 
 // 7 - Faça uma função que retorne true, caso nenhum author tenha nascido no mesmo ano, e false, caso contrário.
 
 const everyoneWasBornOnSecXX = (array) => array.every((element) => element.author.birthYear === element.author.birthYear);
-console.log(everyoneWasBornOnSecXX(books));
+
+// console.log(everyoneWasBornOnSecXX(books));
