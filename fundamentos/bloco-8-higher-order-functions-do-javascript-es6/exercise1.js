@@ -66,7 +66,7 @@ const books = [
 
 const authorBornIn1947 = (array) => array.find((element) => element.author.birthYear === 1947).author.name;
 
-console.log(authorBornIn1947(books));
+// console.log(authorBornIn1947(books));
 
 // 2 - Retorne o nome do livro de menor nome.
 // Dica: use a função forEach.
@@ -93,6 +93,9 @@ const getNamedBook = (array) => array.find((element) => element.name.length === 
 
 // 7 - Faça uma função que retorne true, caso nenhum author tenha nascido no mesmo ano, e false, caso contrário.
 
-const everyoneWasBornOnSecXX = (array) => array.every((element) => element.author.birthYear === element.author.birthYear);
+const everyoneWasBornOnSecXX = (array) => array.forEach((element) => {
+  if (element.author.birthYear) 
 
-// console.log(everyoneWasBornOnSecXX(books));
+  });
+
+console.log(everyoneWasBornOnSecXX(books));
