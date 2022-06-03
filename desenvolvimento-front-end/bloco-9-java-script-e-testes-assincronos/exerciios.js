@@ -23,7 +23,7 @@ const sendMarsTemperature = (callbackSucess, calbackError) => {
         if (taxa <= 0.6){
         callbackSucess(result)
         } else {
-        calbackError('faled')
+        calbackError('error')
         }
     }, messageDelay())
 };
